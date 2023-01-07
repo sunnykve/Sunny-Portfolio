@@ -1,0 +1,13 @@
+.links:hover{
+    boder-bottom: 1px solid lawngreen;
+    transition: 0.5 ease-in-out;
+
+}
+.highlight{
+    font-size: 20px;
+    font-weight: bold;
+    color:  var(--purple);
+}
+.active{
+    border-bottom: 1px solid var(--purple);
+}
