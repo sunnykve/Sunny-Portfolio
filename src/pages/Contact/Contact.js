@@ -38,12 +38,6 @@ const Contact = () => {
         }
         setLoading(false)
     }
-
-
-
-
-
-
     return (
         < div className='containet p-4' >
             <div className='row justify-content-center mx-0'>
@@ -78,8 +72,6 @@ const Contact = () => {
                     <img src='/assets/contact.png' alt='contact' className='contact-img' data-aos='zoom-in' />
                 </div>
             </div>
-
-
         </div >
     )
 }

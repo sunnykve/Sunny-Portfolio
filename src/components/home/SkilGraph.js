@@ -37,11 +37,12 @@ const SkilGraph = () => {
             <div className='row justify-content-center mx-0'>
                 <Circular val={8.5} text='Html' />
                 <Circular val={8} text='Css' />
-                <Circular val={7.5} text='Javascript' />
-                <Circular val={8.5} text='React' />
-                <Circular val={7} text='Redux' />
-                <Circular val={8} text='Node Js' />
-                <Circular val={7} text='MongoDB' />
+                <Circular val={7.5} text='JavaScript' />
+                <Circular val={8.5} text='Bootstra' />
+                <Circular val={7} text='React-js' />
+                <Circular val={8} text='Redux' />
+                <Circular val={7} text='Api' />
+                <Circular val={7} text='Github' />
 
 
             </div>

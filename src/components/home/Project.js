@@ -23,12 +23,12 @@ const Project = () => {
                                 <h3 className='fw-light'>{item.title}</h3>
                                 <p className='fw-light'>{item.info}</p>
                                 <div className='d-flex justify-content-between'>
-                                    <a href={item.liveLink} target='_blank' style={{ textDecoration: "non" }}>
+                                    <a href={item.liveLink} target='_blank' style={{ textDecoration: "non" }} rel="noreferrer">
 
                                         <button className='btn custom-btn rounded-pill shadow'>Demo</button>
                                     </a>
 
-                                    <a href={item.repoLink} target='_blank' style={{ textDecoration: "non" }}>
+                                    <a href={item.repoLink} target='_blank' style={{ textDecoration: "non" }} rel="noreferrer">
                                         <button className='btn custom-btn rounded-pill shadow'>Repo</button>
                                     </a>
 
@@ -40,7 +40,7 @@ const Project = () => {
 
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
 

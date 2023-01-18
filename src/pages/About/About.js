@@ -14,7 +14,7 @@ const About = () => {
                 <img src='/assets/profile-img.jpg' alt='profile' className='profile-img' />
                 <h1 className='fw-light'>About Me</h1>
                 <hr className='mx-5'></hr>
-                <h3 className='fw-light'>I am a web developer.<br /> I enjoy developing web app.<br />Proficiency in Node js, React, Git etc</h3>
+                <h3 className='fw-light'>I am a web developer.<br /> I enjoy developing web app.<br />Proficiency in Html,Css,JavaScript,Bootstra,React-js,Redux, Github.</h3>
             </div>
             <div className='row justify-content-center'>
                 <div className='col-md-6 mt-5'>
@@ -24,7 +24,6 @@ const About = () => {
                 <div className='col-md-6' data-aos='fade-left' >
                     <img src="/assets/exp-img.png" alt="experience" className='about-img' />
                 </div>
-
 
             </div>
             <div className='row justify-content-center'>
@@ -44,9 +43,6 @@ const About = () => {
                     <h4 className='fw-light mt-5'>Social Links</h4>
                     <SocialComponent />
                 </div>
-
-
-
             </div>
         </div>
     )

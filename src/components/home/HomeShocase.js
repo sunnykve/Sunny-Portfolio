@@ -5,15 +5,12 @@ import AOS from 'aos';
 
 const HomeShocase = () => {
 
-    useEffect = () => {
-        AOS.init({
-            duration: 2000,
-            delay: 1000
-        }, [])
-    };
+    useEffect(() => {
+        AOS.init({ duration: 2000, easing: 'ease-in-out', delay: 1000 });
+    }, [])
 
 
-    let words = ['Profiency in Html, Css, Javascrept, Git, React.']
+    let words = ['Proficiency in Html,Css,JavaScript,Bootstra,React-js,Redux,Api,Github.']
     return (
         <>
             <div className='row justify-content-center mx-0 showcase-div mt-4'>
@@ -43,4 +40,4 @@ const HomeShocase = () => {
     )
 };
 
-export default HomeShocase;
+export default HomeShocase
