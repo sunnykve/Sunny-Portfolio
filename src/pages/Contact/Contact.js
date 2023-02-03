@@ -81,10 +81,10 @@ export default Contact
 export const SocialComponent = () => {
     return (
         <div className='d-flex justify-content-evenly'>
-            <a href='https://github.com' target='_blank' style={{ textDecoration: 'none' }}>
+            <a href='https://github.com/sunnykve' target='_blank' style={{ textDecoration: 'none' }}>
                 <button className='btn bg-light shadow rounded-pill custom-btn'> <AiFillGithub /></button>
             </a>
-            <a href='https://linkedin.com' target='_blank' style={{ textDecoration: 'none' }}>
+            <a href='https://www.linkedin.com/in/sunny-verma-697a14244/' target='_blank' style={{ textDecoration: 'none' }}>
                 <button className='btn bg-light shadow rounded-pill custom-btn'> <AiFillLinkedin /></button>
             </a>
             <a href='https://gmail.com' target='_blank' style={{ textDecoration: 'none' }}>

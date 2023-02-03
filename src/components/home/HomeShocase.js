@@ -10,7 +10,7 @@ const HomeShocase = () => {
     }, [])
 
 
-    let words = ['Proficiency in Html,Css,JavaScript,Bootstra,React-js,Redux,Api,Github.']
+    let words = ['Proficiency in Html,CSS,JavaScript,Bootstrap,React.js,Redux,Api,Github.']
     return (
         <>
             <div className='row justify-content-center mx-0 showcase-div mt-4'>

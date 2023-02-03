@@ -35,14 +35,14 @@ const SkilGraph = () => {
             <h1 className='text-center fw-light'>Skill-Graph</h1>
             <hr></hr>
             <div className='row justify-content-center mx-0'>
-                <Circular val={8.5} text='Html' />
-                <Circular val={8} text='Css' />
+                <Circular val={8.5} text='Html5' />
+                <Circular val={8} text='CSS' />
                 <Circular val={7.5} text='JavaScript' />
                 <Circular val={8.5} text='Bootstra' />
-                <Circular val={7} text='React-js' />
+                <Circular val={8.5} text='React.js' />
                 <Circular val={8} text='Redux' />
-                <Circular val={7} text='Api' />
-                <Circular val={7} text='Github' />
+                <Circular val={8} text='API' />
+                <Circular val={9} text='Github' />
 
 
             </div>

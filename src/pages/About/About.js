@@ -14,12 +14,12 @@ const About = () => {
                 <img src='/assets/profile-img.jpg' alt='profile' className='profile-img' />
                 <h1 className='fw-light'>About Me</h1>
                 <hr className='mx-5'></hr>
-                <h3 className='fw-light'>I am a web developer.<br /> I enjoy developing web app.<br />Proficiency in Html,Css,JavaScript,Bootstra,React-js,Redux, Github.</h3>
+                <h3 className='fw-light'>I am a web developer.<br /> I enjoy developing websites.<br />Proficiency in Html,CSS,JavaScript,Bootstrap,React.js,API,Redux, Github.</h3>
             </div>
             <div className='row justify-content-center'>
                 <div className='col-md-6 mt-5'>
                     <h1 className='text-center fw-light mt-5'>Fresher</h1>
-                    <h4 className='fw-light text-center'>Some experience add</h4>
+                    {/* <h4 className='fw-light text-center'>Some experience add</h4> */}
                 </div>
                 <div className='col-md-6' data-aos='fade-left' >
                     <img src="/assets/exp-img.png" alt="experience" className='about-img' />
@@ -32,8 +32,8 @@ const About = () => {
                 </div>
 
                 <div className='col-md-6 mt-5'>
-                    <h1 className='text-center fw-light mt-5'>Higher Education</h1>
-                    <h4 className='fw-light text-center'>Completed B.E</h4>
+                    <h1 className='text-center fw-light mt-5'>Education</h1>
+                    <h4 className='fw-light text-center'>B.E</h4>
                 </div>
                 <div className='text-center' data-aos='fade-up'>
                     <a style={{ textDecoration: 'none' }} href='/assets/Sunny-Resume.pdf' download>
